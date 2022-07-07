@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C07D1FA28770C9D0098A51F /* MapWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C07D1F728770C200098A51F /* MapWidgetEntryView.swift */; };
 		C23488A22870954A006EC104 /* WBWidgetDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23488A12870954A006EC104 /* WBWidgetDemoApp.swift */; };
 		C23488A42870954A006EC104 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23488A32870954A006EC104 /* ContentView.swift */; };
 		C23488A62870954C006EC104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23488A52870954C006EC104 /* Assets.xcassets */; };
@@ -78,6 +79,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C07D1F728770C200098A51F /* MapWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWidgetEntryView.swift; sourceTree = "<group>"; };
 		C234889E2870954A006EC104 /* WBWidgetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBWidgetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23488A12870954A006EC104 /* WBWidgetDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBWidgetDemoApp.swift; sourceTree = "<group>"; };
 		C23488A32870954A006EC104 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +144,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C95A5D22877018500F42DC6 /* MapWidget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapWidget;
+			sourceTree = "<group>";
+		};
 		C23488952870954A006EC104 = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +184,7 @@
 				C23488A12870954A006EC104 /* WBWidgetDemoApp.swift */,
 				C23488A32870954A006EC104 /* ContentView.swift */,
 				C23488E1287174DA006EC104 /* ContentView1.swift */,
+				0C07D1F728770C200098A51F /* MapWidgetEntryView.swift */,
 				C23488A52870954C006EC104 /* Assets.xcassets */,
 				C23488A72870954C006EC104 /* Preview Content */,
 			);
@@ -242,6 +252,7 @@
 		C23488DA287168C3006EC104 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				0C95A5D22877018500F42DC6 /* MapWidget */,
 				C23488E02871746D006EC104 /* DynamicIntentWidget */,
 				C23488DF28717429006EC104 /* PlayTools */,
 			);
@@ -437,6 +448,7 @@
 				C23488B828714B09006EC104 /* RSSData.swift in Sources */,
 				C23488A22870954A006EC104 /* WBWidgetDemoApp.swift in Sources */,
 				C23488E828717558006EC104 /* FileManager+Ext.swift in Sources */,
+				0C07D1FA28770C9D0098A51F /* MapWidgetEntryView.swift in Sources */,
 				C23488D12871686D006EC104 /* MainWidget.intentdefinition in Sources */,
 				C23488EA28717567006EC104 /* UserDefaults+Ext.swift in Sources */,
 				C23488F028717B38006EC104 /* DynamicPersonSelection.intentdefinition in Sources */,
