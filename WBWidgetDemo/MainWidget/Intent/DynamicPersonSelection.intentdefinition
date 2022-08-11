@@ -28,7 +28,7 @@
 			<key>INIntentIneligibleForSuggestions</key>
 			<true/>
 			<key>INIntentLastParameterTag</key>
-			<integer>3</integer>
+			<integer>6</integer>
 			<key>INIntentName</key>
 			<string>DynamicPersonSelection</string>
 			<key>INIntentParameters</key>
@@ -37,7 +37,7 @@
 					<key>INIntentParameterConfigurable</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
-					<string>Person</string>
+					<string>Person1</string>
 					<key>INIntentParameterDisplayNameID</key>
 					<string>829U2C</string>
 					<key>INIntentParameterDisplayPriority</key>
@@ -67,6 +67,43 @@
 					<true/>
 					<key>INIntentParameterTag</key>
 					<integer>3</integer>
+					<key>INIntentParameterType</key>
+					<string>Object</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterConfigurable</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Person1</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>ok237r</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>2</integer>
+					<key>INIntentParameterName</key>
+					<string>person1</string>
+					<key>INIntentParameterObjectType</key>
+					<string>Person</string>
+					<key>INIntentParameterObjectTypeNamespace</key>
+					<string>4Em7W1</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Configuration</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+					</array>
+					<key>INIntentParameterSupportsDynamicEnumeration</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>6</integer>
 					<key>INIntentParameterType</key>
 					<string>Object</string>
 				</dict>
@@ -105,7 +142,7 @@
 			<key>INTypeDisplayNameID</key>
 			<string>ozQ4d3</string>
 			<key>INTypeLastPropertyTag</key>
-			<integer>99</integer>
+			<integer>100</integer>
 			<key>INTypeName</key>
 			<string>Person</string>
 			<key>INTypeProperties</key>
