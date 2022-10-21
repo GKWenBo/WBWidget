@@ -78,9 +78,9 @@ struct MyWidgetEntryView : View {
                         .resizable()
                         .frame(width: 30, height: 30)
                         .aspectRatio(contentMode: .fit)
-
-                        
-                    //                        .privacySensitive() // 私密设置
+                    
+                    
+//                        .privacySensitive() // 私密设置
                 }
             case .accessoryInline:
                 ViewThatFits {
