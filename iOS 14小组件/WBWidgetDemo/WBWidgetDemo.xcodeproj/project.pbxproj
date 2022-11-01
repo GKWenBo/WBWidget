@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0C07D1FA28770C9D0098A51F /* MapWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C07D1F728770C200098A51F /* MapWidgetEntryView.swift */; };
+		0CBAE55929113EBF00F20688 /* WBClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE55829113EBF00F20688 /* WBClockWidget.swift */; };
+		0CBAE55B29113EDA00F20688 /* WBClockWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE55A29113EDA00F20688 /* WBClockWidgetEntryView.swift */; };
+		0CBAE55D29113EFA00F20688 /* WBClockWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAE55C29113EFA00F20688 /* WBClockWidgetModel.swift */; };
 		C23488A22870954A006EC104 /* WBWidgetDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23488A12870954A006EC104 /* WBWidgetDemoApp.swift */; };
 		C23488A42870954A006EC104 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23488A32870954A006EC104 /* ContentView.swift */; };
 		C23488A62870954C006EC104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C23488A52870954C006EC104 /* Assets.xcassets */; };
@@ -80,6 +83,9 @@
 
 /* Begin PBXFileReference section */
 		0C07D1F728770C200098A51F /* MapWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWidgetEntryView.swift; sourceTree = "<group>"; };
+		0CBAE55829113EBF00F20688 /* WBClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBClockWidget.swift; sourceTree = "<group>"; };
+		0CBAE55A29113EDA00F20688 /* WBClockWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBClockWidgetEntryView.swift; sourceTree = "<group>"; };
+		0CBAE55C29113EFA00F20688 /* WBClockWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBClockWidgetModel.swift; sourceTree = "<group>"; };
 		C234889E2870954A006EC104 /* WBWidgetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBWidgetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C23488A12870954A006EC104 /* WBWidgetDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBWidgetDemoApp.swift; sourceTree = "<group>"; };
 		C23488A32870954A006EC104 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -149,6 +155,16 @@
 			children = (
 			);
 			path = MapWidget;
+			sourceTree = "<group>";
+		};
+		0CBAE55729113E8100F20688 /* ClockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAE55829113EBF00F20688 /* WBClockWidget.swift */,
+				0CBAE55A29113EDA00F20688 /* WBClockWidgetEntryView.swift */,
+				0CBAE55C29113EFA00F20688 /* WBClockWidgetModel.swift */,
+			);
+			path = ClockWidget;
 			sourceTree = "<group>";
 		};
 		C23488952870954A006EC104 = {
@@ -252,6 +268,7 @@
 		C23488DA287168C3006EC104 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				0CBAE55729113E8100F20688 /* ClockWidget */,
 				0C95A5D22877018500F42DC6 /* MapWidget */,
 				C23488E02871746D006EC104 /* DynamicIntentWidget */,
 				C23488DF28717429006EC104 /* PlayTools */,
@@ -467,6 +484,9 @@
 				C23488F128717B38006EC104 /* DynamicPersonSelection.intentdefinition in Sources */,
 				C23488DC2871696A006EC104 /* PlayTools.swift in Sources */,
 				C23488F428717D90006EC104 /* UserDefaults+Ext.swift in Sources */,
+				0CBAE55D29113EFA00F20688 /* WBClockWidgetModel.swift in Sources */,
+				0CBAE55B29113EDA00F20688 /* WBClockWidgetEntryView.swift in Sources */,
+				0CBAE55929113EBF00F20688 /* WBClockWidget.swift in Sources */,
 				C23488DD28716C5E006EC104 /* PayToolsView.swift in Sources */,
 				C23488EE28717AF5006EC104 /* DynamicIntentWidget.swift in Sources */,
 				C23488F52871803C006EC104 /* Widget+Kind.swift in Sources */,

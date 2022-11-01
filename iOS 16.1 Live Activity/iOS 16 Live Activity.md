@@ -4,6 +4,9 @@
 
 > - [live-activities](https://developer.apple.com/design/human-interface-guidelines/components/system-experiences/live-activities)
 > - [activitykit](https://developer.apple.com/documentation/activitykit)
+> - [displaying-live-data-with-live-activities](activitykit/displaying-live-data-with-live-activities)
+> - [refreshing_and_maintaining_your_app_using_background_tasks](https://developer.apple.com/documentation/backgroundtasks/refreshing_and_maintaining_your_app_using_background_tasks)
+> - [update-and-end-your-live-activity-with-remote-push-notifications](activitykit/update-and-end-your-live-activity-with-remote-push-notifications)
 
 ### 工程配置
 
