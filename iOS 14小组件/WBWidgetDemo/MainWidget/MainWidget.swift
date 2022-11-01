@@ -26,6 +26,7 @@ struct Widgets: WidgetBundle {
     var body: some Widget {
         PlayToolsWidget()
         DynamicIntentWidget()
+        WBClockWidget()
     }
 }
 
