@@ -40,6 +40,7 @@ struct SimpleEntry: TimelineEntry {
 // widget 展示视图
 struct MyWidgetEntryView : View {
     var entry: Provider.Entry
+    @State var rectangularAppearCount: Int = 0
     @Environment(\.widgetFamily) var family // 尺寸环境变量
     @Environment(\.widgetRenderingMode) var widgetRenderingMode
     
@@ -66,7 +67,7 @@ struct MyWidgetEntryView : View {
             case .accessoryRectangular, .systemSmall:
                 HStack {
                     VStack {
-                            Text("Rectangular")
+                            Text("Rectangular \(rectangularAppearCount)")
                                 .font(.system(size: 14))
                             Text("\(widgetRenderingMode.description)")
                                 .foregroundColor(.blue)
@@ -81,6 +82,9 @@ struct MyWidgetEntryView : View {
                     
                     
 //                        .privacySensitive() // 私密设置
+                }
+                .onAppear {
+                    rectangularAppearCount += 1
                 }
             case .accessoryInline:
                 ViewThatFits {

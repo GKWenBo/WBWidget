@@ -81,7 +81,7 @@
          <EnvironmentVariable
             key = "_XCWidgetKind"
             value = "DynamicIntentWidget"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "_XCWidgetDefaultView"
