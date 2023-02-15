@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  WBLiveActivityDemo
+//  WBLiveActivityUpdateDemo
 //
-//  Created by wenbo22 on 2023/1/31.
+//  Created by wenbo22 on 2023/2/15.
 //
 
 import UIKit
@@ -47,18 +47,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
-}
 
-extension SceneDelegate {
-    // 实现该方法，接收并且处理外部唤起的数据做相应的事件
-    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
-        if let url = URLContexts.first?.url {
-            debugPrint("url: \(url)")
-            // 通过scheme来区分灵动岛相关的数据
-            if url.scheme == "hdSeckill" {
-                ActivityBrigde.activityAction(url: url)
-            }
-        }
-    }
 }
 

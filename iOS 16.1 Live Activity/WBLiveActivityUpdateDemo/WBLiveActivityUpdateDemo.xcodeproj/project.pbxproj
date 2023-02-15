@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C15B189299C9E2600DADF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B188299C9E2600DADF35 /* AppDelegate.swift */; };
+		0C15B18B299C9E2600DADF35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B18A299C9E2600DADF35 /* SceneDelegate.swift */; };
+		0C15B18D299C9E2600DADF35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B18C299C9E2600DADF35 /* ViewController.swift */; };
+		0C15B190299C9E2600DADF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15B18E299C9E2600DADF35 /* Main.storyboard */; };
+		0C15B192299C9E2900DADF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C15B191299C9E2900DADF35 /* Assets.xcassets */; };
+		0C15B195299C9E2900DADF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C15B193299C9E2900DADF35 /* LaunchScreen.storyboard */; };
+		0C15B1A3299C9EB000DADF35 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C15B1A2299C9EB000DADF35 /* WidgetKit.framework */; };
+		0C15B1A5299C9EB000DADF35 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C15B1A4299C9EB000DADF35 /* SwiftUI.framework */; };
+		0C15B1A8299C9EB000DADF35 /* MyLiveWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B1A7299C9EB000DADF35 /* MyLiveWidgetBundle.swift */; };
+		0C15B1AA299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B1A9299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift */; };
+		0C15B1AC299C9EB000DADF35 /* MyLiveWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B1AB299C9EB000DADF35 /* MyLiveWidget.swift */; };
+		0C15B1AE299C9EB200DADF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C15B1AD299C9EB200DADF35 /* Assets.xcassets */; };
+		0C15B1B2299C9EB200DADF35 /* MyLiveWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0C15B1A0299C9EB000DADF35 /* MyLiveWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0C15B1B8299CADBA00DADF35 /* MyLiveWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B1A9299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift */; };
+		0CA94C9F299CF78D00FBF43C /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0CA94C9E299CF78D00FBF43C /* test.gif */; };
+		0CA94CA0299CF78D00FBF43C /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0CA94C9E299CF78D00FBF43C /* test.gif */; };
+		559CC5D4F1CF7A8D75972347 /* Pods_MyLiveWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2316D4EC30BB4D88AEA502AA /* Pods_MyLiveWidgetExtension.framework */; };
+		8E8846EA9B1168B165B5C34E /* Pods_WBLiveActivityUpdateDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627F1381E119CCA3CB90ED2 /* Pods_WBLiveActivityUpdateDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C15B1B0299C9EB200DADF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C15B17D299C9E2600DADF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C15B19F299C9EB000DADF35;
+			remoteInfo = MyLiveWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C15B1B6299C9EB200DADF35 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0C15B1B2299C9EB200DADF35 /* MyLiveWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0627F1381E119CCA3CB90ED2 /* Pods_WBLiveActivityUpdateDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBLiveActivityUpdateDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C15B185299C9E2600DADF35 /* WBLiveActivityUpdateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBLiveActivityUpdateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C15B188299C9E2600DADF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0C15B18A299C9E2600DADF35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0C15B18C299C9E2600DADF35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C15B18F299C9E2600DADF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C15B191299C9E2900DADF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C15B194299C9E2900DADF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C15B196299C9E2900DADF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C15B1A0299C9EB000DADF35 /* MyLiveWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyLiveWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C15B1A2299C9EB000DADF35 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0C15B1A4299C9EB000DADF35 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0C15B1A7299C9EB000DADF35 /* MyLiveWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveWidgetBundle.swift; sourceTree = "<group>"; };
+		0C15B1A9299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		0C15B1AB299C9EB000DADF35 /* MyLiveWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveWidget.swift; sourceTree = "<group>"; };
+		0C15B1AD299C9EB200DADF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C15B1AF299C9EB200DADF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA94C9E299CF78D00FBF43C /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
+		0F6EC7108B6C246BB45EA4B8 /* Pods-WBLiveActivityUpdateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLiveActivityUpdateDemo.release.xcconfig"; path = "Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2316D4EC30BB4D88AEA502AA /* Pods_MyLiveWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLiveWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F63A7AF6B6B3BDF4152D7C /* Pods-MyLiveWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLiveWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-MyLiveWidgetExtension/Pods-MyLiveWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B73CFB0FAE8F6935CD01EA4D /* Pods-WBLiveActivityUpdateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLiveActivityUpdateDemo.debug.xcconfig"; path = "Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CFCA7BAA0BF1BC14212B37FB /* Pods-MyLiveWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLiveWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-MyLiveWidgetExtension/Pods-MyLiveWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C15B182299C9E2600DADF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8846EA9B1168B165B5C34E /* Pods_WBLiveActivityUpdateDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C15B19D299C9EB000DADF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C15B1A5299C9EB000DADF35 /* SwiftUI.framework in Frameworks */,
+				0C15B1A3299C9EB000DADF35 /* WidgetKit.framework in Frameworks */,
+				559CC5D4F1CF7A8D75972347 /* Pods_MyLiveWidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C15B17C299C9E2600DADF35 = {
+			isa = PBXGroup;
+			children = (
+				0C15B187299C9E2600DADF35 /* WBLiveActivityUpdateDemo */,
+				0C15B1A6299C9EB000DADF35 /* MyLiveWidget */,
+				0C15B1A1299C9EB000DADF35 /* Frameworks */,
+				0C15B186299C9E2600DADF35 /* Products */,
+				1C66617ADF7F8899948397D8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		0C15B186299C9E2600DADF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C15B185299C9E2600DADF35 /* WBLiveActivityUpdateDemo.app */,
+				0C15B1A0299C9EB000DADF35 /* MyLiveWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C15B187299C9E2600DADF35 /* WBLiveActivityUpdateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0C15B188299C9E2600DADF35 /* AppDelegate.swift */,
+				0C15B18A299C9E2600DADF35 /* SceneDelegate.swift */,
+				0C15B18C299C9E2600DADF35 /* ViewController.swift */,
+				0C15B18E299C9E2600DADF35 /* Main.storyboard */,
+				0CA94C9E299CF78D00FBF43C /* test.gif */,
+				0C15B191299C9E2900DADF35 /* Assets.xcassets */,
+				0C15B193299C9E2900DADF35 /* LaunchScreen.storyboard */,
+				0C15B196299C9E2900DADF35 /* Info.plist */,
+			);
+			path = WBLiveActivityUpdateDemo;
+			sourceTree = "<group>";
+		};
+		0C15B1A1299C9EB000DADF35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C15B1A2299C9EB000DADF35 /* WidgetKit.framework */,
+				0C15B1A4299C9EB000DADF35 /* SwiftUI.framework */,
+				2316D4EC30BB4D88AEA502AA /* Pods_MyLiveWidgetExtension.framework */,
+				0627F1381E119CCA3CB90ED2 /* Pods_WBLiveActivityUpdateDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C15B1A6299C9EB000DADF35 /* MyLiveWidget */ = {
+			isa = PBXGroup;
+			children = (
+				0C15B1A7299C9EB000DADF35 /* MyLiveWidgetBundle.swift */,
+				0C15B1A9299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift */,
+				0C15B1AB299C9EB000DADF35 /* MyLiveWidget.swift */,
+				0C15B1AD299C9EB200DADF35 /* Assets.xcassets */,
+				0C15B1AF299C9EB200DADF35 /* Info.plist */,
+			);
+			path = MyLiveWidget;
+			sourceTree = "<group>";
+		};
+		1C66617ADF7F8899948397D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87F63A7AF6B6B3BDF4152D7C /* Pods-MyLiveWidgetExtension.debug.xcconfig */,
+				CFCA7BAA0BF1BC14212B37FB /* Pods-MyLiveWidgetExtension.release.xcconfig */,
+				B73CFB0FAE8F6935CD01EA4D /* Pods-WBLiveActivityUpdateDemo.debug.xcconfig */,
+				0F6EC7108B6C246BB45EA4B8 /* Pods-WBLiveActivityUpdateDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C15B184299C9E2600DADF35 /* WBLiveActivityUpdateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C15B199299C9E2900DADF35 /* Build configuration list for PBXNativeTarget "WBLiveActivityUpdateDemo" */;
+			buildPhases = (
+				364623EE79C2FB3A40C8EDC8 /* [CP] Check Pods Manifest.lock */,
+				0C15B181299C9E2600DADF35 /* Sources */,
+				0C15B182299C9E2600DADF35 /* Frameworks */,
+				0C15B183299C9E2600DADF35 /* Resources */,
+				0C15B1B6299C9EB200DADF35 /* Embed Foundation Extensions */,
+				B3F661E3C23183C717751BBC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C15B1B1299C9EB200DADF35 /* PBXTargetDependency */,
+			);
+			name = WBLiveActivityUpdateDemo;
+			productName = WBLiveActivityUpdateDemo;
+			productReference = 0C15B185299C9E2600DADF35 /* WBLiveActivityUpdateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C15B19F299C9EB000DADF35 /* MyLiveWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C15B1B3299C9EB200DADF35 /* Build configuration list for PBXNativeTarget "MyLiveWidgetExtension" */;
+			buildPhases = (
+				99E2AC30AA0A7D86E6008989 /* [CP] Check Pods Manifest.lock */,
+				0C15B19C299C9EB000DADF35 /* Sources */,
+				0C15B19D299C9EB000DADF35 /* Frameworks */,
+				0C15B19E299C9EB000DADF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLiveWidgetExtension;
+			productName = MyLiveWidgetExtension;
+			productReference = 0C15B1A0299C9EB000DADF35 /* MyLiveWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C15B17D299C9E2600DADF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0C15B184299C9E2600DADF35 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0C15B19F299C9EB000DADF35 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0C15B180299C9E2600DADF35 /* Build configuration list for PBXProject "WBLiveActivityUpdateDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C15B17C299C9E2600DADF35;
+			productRefGroup = 0C15B186299C9E2600DADF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C15B184299C9E2600DADF35 /* WBLiveActivityUpdateDemo */,
+				0C15B19F299C9EB000DADF35 /* MyLiveWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C15B183299C9E2600DADF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA94C9F299CF78D00FBF43C /* test.gif in Resources */,
+				0C15B195299C9E2900DADF35 /* LaunchScreen.storyboard in Resources */,
+				0C15B192299C9E2900DADF35 /* Assets.xcassets in Resources */,
+				0C15B190299C9E2600DADF35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C15B19E299C9EB000DADF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA94CA0299CF78D00FBF43C /* test.gif in Resources */,
+				0C15B1AE299C9EB200DADF35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		364623EE79C2FB3A40C8EDC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WBLiveActivityUpdateDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99E2AC30AA0A7D86E6008989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyLiveWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3F661E3C23183C717751BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C15B181299C9E2600DADF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C15B1B8299CADBA00DADF35 /* MyLiveWidgetLiveActivity.swift in Sources */,
+				0C15B18D299C9E2600DADF35 /* ViewController.swift in Sources */,
+				0C15B189299C9E2600DADF35 /* AppDelegate.swift in Sources */,
+				0C15B18B299C9E2600DADF35 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C15B19C299C9EB000DADF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C15B1AA299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift in Sources */,
+				0C15B1A8299C9EB000DADF35 /* MyLiveWidgetBundle.swift in Sources */,
+				0C15B1AC299C9EB000DADF35 /* MyLiveWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C15B1B1299C9EB200DADF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C15B19F299C9EB000DADF35 /* MyLiveWidgetExtension */;
+			targetProxy = 0C15B1B0299C9EB200DADF35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C15B18E299C9E2600DADF35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C15B18F299C9E2600DADF35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C15B193299C9E2900DADF35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C15B194299C9E2900DADF35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C15B197299C9E2900DADF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C15B198299C9E2900DADF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C15B19A299C9E2900DADF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73CFB0FAE8F6935CD01EA4D /* Pods-WBLiveActivityUpdateDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBLiveActivityUpdateDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenbo.WBLiveActivityUpdateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C15B19B299C9E2900DADF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6EC7108B6C246BB45EA4B8 /* Pods-WBLiveActivityUpdateDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WBLiveActivityUpdateDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenbo.WBLiveActivityUpdateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C15B1B4299C9EB200DADF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F63A7AF6B6B3BDF4152D7C /* Pods-MyLiveWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyLiveWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyLiveWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenbo.WBLiveActivityUpdateDemo.MyLiveWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C15B1B5299C9EB200DADF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCA7BAA0BF1BC14212B37FB /* Pods-MyLiveWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyLiveWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyLiveWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wenbo.WBLiveActivityUpdateDemo.MyLiveWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C15B180299C9E2600DADF35 /* Build configuration list for PBXProject "WBLiveActivityUpdateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C15B197299C9E2900DADF35 /* Debug */,
+				0C15B198299C9E2900DADF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C15B199299C9E2900DADF35 /* Build configuration list for PBXNativeTarget "WBLiveActivityUpdateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C15B19A299C9E2900DADF35 /* Debug */,
+				0C15B19B299C9E2900DADF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C15B1B3299C9EB200DADF35 /* Build configuration list for PBXNativeTarget "MyLiveWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C15B1B4299C9EB200DADF35 /* Debug */,
+				0C15B1B5299C9EB200DADF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C15B17D299C9E2600DADF35 /* Project object */;
+}

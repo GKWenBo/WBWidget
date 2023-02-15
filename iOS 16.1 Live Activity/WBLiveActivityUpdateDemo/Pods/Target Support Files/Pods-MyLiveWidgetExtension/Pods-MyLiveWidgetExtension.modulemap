@@ -1,0 +1,6 @@
+framework module Pods_MyLiveWidgetExtension {
+  umbrella header "Pods-MyLiveWidgetExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
