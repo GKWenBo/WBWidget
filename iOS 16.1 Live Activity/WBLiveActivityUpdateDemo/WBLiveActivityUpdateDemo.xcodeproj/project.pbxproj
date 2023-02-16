@@ -21,10 +21,10 @@
 		0C15B1AE299C9EB200DADF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C15B1AD299C9EB200DADF35 /* Assets.xcassets */; };
 		0C15B1B2299C9EB200DADF35 /* MyLiveWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0C15B1A0299C9EB000DADF35 /* MyLiveWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0C15B1B8299CADBA00DADF35 /* MyLiveWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B1A9299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift */; };
+		0C967B42299E5342004C5398 /*  MyLiveWidgetLiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C967B41299E5342004C5398 /*  MyLiveWidgetLiveModel.swift */; };
+		0C967B43299E5342004C5398 /*  MyLiveWidgetLiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C967B41299E5342004C5398 /*  MyLiveWidgetLiveModel.swift */; };
 		0CA94C9F299CF78D00FBF43C /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0CA94C9E299CF78D00FBF43C /* test.gif */; };
 		0CA94CA0299CF78D00FBF43C /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0CA94C9E299CF78D00FBF43C /* test.gif */; };
-		559CC5D4F1CF7A8D75972347 /* Pods_MyLiveWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2316D4EC30BB4D88AEA502AA /* Pods_MyLiveWidgetExtension.framework */; };
-		8E8846EA9B1168B165B5C34E /* Pods_WBLiveActivityUpdateDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0627F1381E119CCA3CB90ED2 /* Pods_WBLiveActivityUpdateDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +69,9 @@
 		0C15B1AB299C9EB000DADF35 /* MyLiveWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveWidget.swift; sourceTree = "<group>"; };
 		0C15B1AD299C9EB200DADF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C15B1AF299C9EB200DADF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C967B41299E5342004C5398 /*  MyLiveWidgetLiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MyLiveWidgetLiveModel.swift"; sourceTree = "<group>"; };
 		0CA94C9E299CF78D00FBF43C /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
-		0F6EC7108B6C246BB45EA4B8 /* Pods-WBLiveActivityUpdateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLiveActivityUpdateDemo.release.xcconfig"; path = "Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo.release.xcconfig"; sourceTree = "<group>"; };
 		2316D4EC30BB4D88AEA502AA /* Pods_MyLiveWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLiveWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87F63A7AF6B6B3BDF4152D7C /* Pods-MyLiveWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLiveWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-MyLiveWidgetExtension/Pods-MyLiveWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		B73CFB0FAE8F6935CD01EA4D /* Pods-WBLiveActivityUpdateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLiveActivityUpdateDemo.debug.xcconfig"; path = "Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		CFCA7BAA0BF1BC14212B37FB /* Pods-MyLiveWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLiveWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-MyLiveWidgetExtension/Pods-MyLiveWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8846EA9B1168B165B5C34E /* Pods_WBLiveActivityUpdateDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +88,6 @@
 			files = (
 				0C15B1A5299C9EB000DADF35 /* SwiftUI.framework in Frameworks */,
 				0C15B1A3299C9EB000DADF35 /* WidgetKit.framework in Frameworks */,
-				559CC5D4F1CF7A8D75972347 /* Pods_MyLiveWidgetExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +101,6 @@
 				0C15B1A6299C9EB000DADF35 /* MyLiveWidget */,
 				0C15B1A1299C9EB000DADF35 /* Frameworks */,
 				0C15B186299C9E2600DADF35 /* Products */,
-				1C66617ADF7F8899948397D8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,22 +145,11 @@
 				0C15B1A7299C9EB000DADF35 /* MyLiveWidgetBundle.swift */,
 				0C15B1A9299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift */,
 				0C15B1AB299C9EB000DADF35 /* MyLiveWidget.swift */,
+				0C967B41299E5342004C5398 /*  MyLiveWidgetLiveModel.swift */,
 				0C15B1AD299C9EB200DADF35 /* Assets.xcassets */,
 				0C15B1AF299C9EB200DADF35 /* Info.plist */,
 			);
 			path = MyLiveWidget;
-			sourceTree = "<group>";
-		};
-		1C66617ADF7F8899948397D8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				87F63A7AF6B6B3BDF4152D7C /* Pods-MyLiveWidgetExtension.debug.xcconfig */,
-				CFCA7BAA0BF1BC14212B37FB /* Pods-MyLiveWidgetExtension.release.xcconfig */,
-				B73CFB0FAE8F6935CD01EA4D /* Pods-WBLiveActivityUpdateDemo.debug.xcconfig */,
-				0F6EC7108B6C246BB45EA4B8 /* Pods-WBLiveActivityUpdateDemo.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,12 +159,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C15B199299C9E2900DADF35 /* Build configuration list for PBXNativeTarget "WBLiveActivityUpdateDemo" */;
 			buildPhases = (
-				364623EE79C2FB3A40C8EDC8 /* [CP] Check Pods Manifest.lock */,
 				0C15B181299C9E2600DADF35 /* Sources */,
 				0C15B182299C9E2600DADF35 /* Frameworks */,
 				0C15B183299C9E2600DADF35 /* Resources */,
 				0C15B1B6299C9EB200DADF35 /* Embed Foundation Extensions */,
-				B3F661E3C23183C717751BBC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,7 +178,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C15B1B3299C9EB200DADF35 /* Build configuration list for PBXNativeTarget "MyLiveWidgetExtension" */;
 			buildPhases = (
-				99E2AC30AA0A7D86E6008989 /* [CP] Check Pods Manifest.lock */,
 				0C15B19C299C9EB000DADF35 /* Sources */,
 				0C15B19D299C9EB000DADF35 /* Frameworks */,
 				0C15B19E299C9EB000DADF35 /* Resources */,
@@ -271,70 +251,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		364623EE79C2FB3A40C8EDC8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WBLiveActivityUpdateDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99E2AC30AA0A7D86E6008989 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MyLiveWidgetExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B3F661E3C23183C717751BBC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WBLiveActivityUpdateDemo/Pods-WBLiveActivityUpdateDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		0C15B181299C9E2600DADF35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -344,6 +260,7 @@
 				0C15B18D299C9E2600DADF35 /* ViewController.swift in Sources */,
 				0C15B189299C9E2600DADF35 /* AppDelegate.swift in Sources */,
 				0C15B18B299C9E2600DADF35 /* SceneDelegate.swift in Sources */,
+				0C967B42299E5342004C5398 /*  MyLiveWidgetLiveModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +270,7 @@
 			files = (
 				0C15B1AA299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift in Sources */,
 				0C15B1A8299C9EB000DADF35 /* MyLiveWidgetBundle.swift in Sources */,
+				0C967B43299E5342004C5398 /*  MyLiveWidgetLiveModel.swift in Sources */,
 				0C15B1AC299C9EB000DADF35 /* MyLiveWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,7 +421,6 @@
 		};
 		0C15B19A299C9E2900DADF35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B73CFB0FAE8F6935CD01EA4D /* Pods-WBLiveActivityUpdateDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -532,7 +449,6 @@
 		};
 		0C15B19B299C9E2900DADF35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F6EC7108B6C246BB45EA4B8 /* Pods-WBLiveActivityUpdateDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -561,7 +477,6 @@
 		};
 		0C15B1B4299C9EB200DADF35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87F63A7AF6B6B3BDF4152D7C /* Pods-MyLiveWidgetExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -588,7 +503,6 @@
 		};
 		0C15B1B5299C9EB200DADF35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFCA7BAA0BF1BC14212B37FB /* Pods-MyLiveWidgetExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;

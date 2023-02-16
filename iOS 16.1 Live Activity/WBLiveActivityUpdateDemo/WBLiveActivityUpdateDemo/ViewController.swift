@@ -22,7 +22,8 @@ class ViewController: UIViewController {
         let contentState = MyLiveWidgetAttributes.ContentState(imageName: self.imageName)
         Task {
             Task{
-                await activity?.end(using: contentState, dismissalPolicy: .immediate)
+                let content = ActivityContent(state: contentState, staleDate: nil)
+                await activity?.end(content, dismissalPolicy: .immediate)
             }
         }
     }
@@ -42,7 +43,8 @@ class ViewController: UIViewController {
             let contentState = MyLiveWidgetAttributes.ContentState(imageName: self.imageName)
             
             Task {
-                await activity.update(using: contentState)
+                let content = ActivityContent(state: contentState, staleDate: nil)
+                await activity.update(content, alertConfiguration: .init(title: "", body: "", sound: .default))
             }
         }
     }
@@ -51,7 +53,7 @@ class ViewController: UIViewController {
         let attribute = MyLiveWidgetAttributes(name: "start")
         let contentState = MyLiveWidgetAttributes.ContentState(imageName: imageName)
         
-        activity = try? Activity<MyLiveWidgetAttributes>.request(attributes: attribute, contentState: contentState, pushType: nil)
+        activity = try? Activity<MyLiveWidgetAttributes>.request(attributes: attribute, content: .init(state: contentState, staleDate: nil), pushType: nil)
     }
 }
 

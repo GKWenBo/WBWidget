@@ -20,17 +20,21 @@ struct MyLiveWidgetAttributes: ActivityAttributes {
 }
 
 struct MyLiveWidgetLiveActivity: Widget {
+    @StateObject var model = MyLiveWidgetLiveModel()
+    
     var body: some WidgetConfiguration {
         ActivityConfiguration(for: MyLiveWidgetAttributes.self) { context in
             // Lock screen/banner UI goes here
             VStack {
-//                Image(context.state.imageName)
-//                    .resizable()
-//                    .aspectRatio(contentMode: .fit)
-                AnimatedImage(name: "test.gif")
+                Image(model.imageName)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
             }
             .activityBackgroundTint(Color.cyan)
             .activitySystemActionForegroundColor(Color.black)
+            .task {
+                model.start()
+            }
         } dynamicIsland: { context in
             DynamicIsland {
                 // Expanded UI goes here.  Compose the expanded UI through

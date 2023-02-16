@@ -6,7 +6,7 @@ target 'MyLiveWidgetExtension' do
   use_frameworks!
 
   # Pods for MyLiveWidgetExtension
-  pod 'SDWebImageSwiftUI'
+  #pod 'SDWebImageSwiftUI'
 
 end
 
@@ -15,6 +15,6 @@ target 'WBLiveActivityUpdateDemo' do
   use_frameworks!
 
   # Pods for WBLiveActivityUpdateDemo
-  pod 'SDWebImageSwiftUI'
+  #pod 'SDWebImageSwiftUI'
 
 end
