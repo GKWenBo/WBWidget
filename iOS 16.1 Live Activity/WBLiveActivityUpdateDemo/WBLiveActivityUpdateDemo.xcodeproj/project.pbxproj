@@ -21,6 +21,7 @@
 		0C15B1AE299C9EB200DADF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C15B1AD299C9EB200DADF35 /* Assets.xcassets */; };
 		0C15B1B2299C9EB200DADF35 /* MyLiveWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0C15B1A0299C9EB000DADF35 /* MyLiveWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0C15B1B8299CADBA00DADF35 /* MyLiveWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15B1A9299C9EB000DADF35 /* MyLiveWidgetLiveActivity.swift */; };
+		0C55206E29A465C0002C07F8 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55206D29A465C0002C07F8 /* SwiftUIView.swift */; };
 		0C967B42299E5342004C5398 /*  MyLiveWidgetLiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C967B41299E5342004C5398 /*  MyLiveWidgetLiveModel.swift */; };
 		0C967B43299E5342004C5398 /*  MyLiveWidgetLiveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C967B41299E5342004C5398 /*  MyLiveWidgetLiveModel.swift */; };
 		0CA94C9F299CF78D00FBF43C /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0CA94C9E299CF78D00FBF43C /* test.gif */; };
@@ -69,6 +70,7 @@
 		0C15B1AB299C9EB000DADF35 /* MyLiveWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiveWidget.swift; sourceTree = "<group>"; };
 		0C15B1AD299C9EB200DADF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C15B1AF299C9EB200DADF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C55206D29A465C0002C07F8 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		0C967B41299E5342004C5398 /*  MyLiveWidgetLiveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " MyLiveWidgetLiveModel.swift"; sourceTree = "<group>"; };
 		0CA94C9E299CF78D00FBF43C /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
 		2316D4EC30BB4D88AEA502AA /* Pods_MyLiveWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLiveWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 				0C15B188299C9E2600DADF35 /* AppDelegate.swift */,
 				0C15B18A299C9E2600DADF35 /* SceneDelegate.swift */,
 				0C15B18C299C9E2600DADF35 /* ViewController.swift */,
+				0C55206D29A465C0002C07F8 /* SwiftUIView.swift */,
 				0C15B18E299C9E2600DADF35 /* Main.storyboard */,
 				0CA94C9E299CF78D00FBF43C /* test.gif */,
 				0C15B191299C9E2900DADF35 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				0C15B1B8299CADBA00DADF35 /* MyLiveWidgetLiveActivity.swift in Sources */,
 				0C15B18D299C9E2600DADF35 /* ViewController.swift in Sources */,
+				0C55206E29A465C0002C07F8 /* SwiftUIView.swift in Sources */,
 				0C15B189299C9E2600DADF35 /* AppDelegate.swift in Sources */,
 				0C15B18B299C9E2600DADF35 /* SceneDelegate.swift in Sources */,
 				0C967B42299E5342004C5398 /*  MyLiveWidgetLiveModel.swift in Sources */,
