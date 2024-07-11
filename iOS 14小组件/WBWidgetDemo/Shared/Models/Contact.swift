@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import AppIntents
 
 struct Contact: Identifiable, Hashable, Codable {
     var id = UUID().uuidString
@@ -38,5 +39,21 @@ extension Contact {
 extension Contact {
     static func fromId(_ id: String) -> Contact? {
         getAll().first { $0.id == id }
+    }
+}
+
+
+@available(iOS 17, *)
+extension Contact: AppEntity {
+    typealias DefaultQuery = SelectPersonQuery
+    
+    static var defaultQuery = SelectPersonQuery()
+        
+    static var typeDisplayRepresentation: TypeDisplayRepresentation {
+        "Person"
+    }
+    
+    var displayRepresentation: DisplayRepresentation {
+        DisplayRepresentation(title: "\(name)")
     }
 }

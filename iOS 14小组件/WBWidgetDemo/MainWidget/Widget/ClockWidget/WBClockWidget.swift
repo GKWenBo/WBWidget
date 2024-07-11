@@ -51,10 +51,9 @@ struct WBClockWidget: Widget {
     }
 }
 
-
-struct LexClockWidget_Previews: PreviewProvider {
-    static var previews: some View {
-        WBClockWidgetEntryView(entry: WBClockEntry(date: Date(), configuration: ConfigurationIntent()))
-            .previewContext(WidgetPreviewContext(family: .systemSmall))
-    }
-}
+@available(iOS 17.0, *)
+#Preview(as: .systemLarge, widget: {
+    WBClockWidget()
+}, timeline: {
+    WBClockEntry(date: Date(), configuration: ConfigurationIntent())
+})

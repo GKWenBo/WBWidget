@@ -22,6 +22,7 @@ struct WBClockWidgetEntryView: View {
                 }
         }
         .padding(.vertical, 10)
+        .widgetBackground()
     }
     
     func tick() {
@@ -87,12 +88,5 @@ struct WBClock: Shape {
         path.addLine(to: CGPoint(x: rect.midX + cos(hoursAngle) * length * model.tickScale,
                                  y: rect.midY - sin(hoursAngle) * length * model.tickScale))
         return path
-    }
-}
-
-struct WBClockWidgetEntryView_Previews: PreviewProvider {
-    static var previews: some View {
-        WBClockView()
-            .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }

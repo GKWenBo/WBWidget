@@ -33,6 +33,7 @@ struct PlayToolsEntryView: View {
     @ViewBuilder
     var body: some View {
         PlayToolsMediumView()
+            .widgetBackground()
     }
 }
 
@@ -50,3 +51,10 @@ struct PlayToolsWidget: Widget {
                             .supportedFamilies([.systemMedium])
     }
 }
+
+@available(iOS 17.0, *)
+#Preview("", as: .systemMedium, widget: {
+    PlayToolsWidget()
+}, timeline: {
+    SimpleEntry(date: Date())
+})

@@ -47,6 +47,12 @@
 		C2E5DEA528718B2000503F55 /* DynamicPersonSelection.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = C23488EF28717B38006EC104 /* DynamicPersonSelection.intentdefinition */; };
 		C2E5DEA628718B8900503F55 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23488E52871752F006EC104 /* Contact.swift */; };
 		C2E5DEA728718C1800503F55 /* UserDefaults+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23488E928717567006EC104 /* UserDefaults+Ext.swift */; };
+		FD8D43D02C3E838A00FD1F6F /* View+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D43CF2C3E838A00FD1F6F /* View+Ex.swift */; };
+		FD8D43D12C3E838A00FD1F6F /* View+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D43CF2C3E838A00FD1F6F /* View+Ex.swift */; };
+		FD8D43D22C3E8A7700FD1F6F /* DynamicIntentWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23488ED28717AF5006EC104 /* DynamicIntentWidget.swift */; };
+		FD8D43D52C3F7AA400FD1F6F /* SelectPersonIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D43D42C3F7AA400FD1F6F /* SelectPersonIntent.swift */; };
+		FD8D43D62C3F7AA400FD1F6F /* SelectPersonIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D43D42C3F7AA400FD1F6F /* SelectPersonIntent.swift */; };
+		FD8D43D72C3F822600FD1F6F /* SelectPersonIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8D43D42C3F7AA400FD1F6F /* SelectPersonIntent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +125,8 @@
 		C2E5DE9728718A9800503F55 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		C2E5DE9A28718A9800503F55 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		C2E5DE9C28718A9800503F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD8D43CF2C3E838A00FD1F6F /* View+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ex.swift"; sourceTree = "<group>"; };
+		FD8D43D42C3F7AA400FD1F6F /* SelectPersonIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonIntent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				C23488ED28717AF5006EC104 /* DynamicIntentWidget.swift */,
+				FD8D43D42C3F7AA400FD1F6F /* SelectPersonIntent.swift */,
 			);
 			path = DynamicIntentWidget;
 			sourceTree = "<group>";
@@ -299,6 +308,7 @@
 				C23488E728717558006EC104 /* FileManager+Ext.swift */,
 				C23488E928717567006EC104 /* UserDefaults+Ext.swift */,
 				C23488EB28717572006EC104 /* Widget+Kind.swift */,
+				FD8D43CF2C3E838A00FD1F6F /* View+Ex.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -465,10 +475,13 @@
 				C23488B828714B09006EC104 /* RSSData.swift in Sources */,
 				C23488A22870954A006EC104 /* WBWidgetDemoApp.swift in Sources */,
 				C23488E828717558006EC104 /* FileManager+Ext.swift in Sources */,
+				FD8D43D52C3F7AA400FD1F6F /* SelectPersonIntent.swift in Sources */,
 				0C07D1FA28770C9D0098A51F /* MapWidgetEntryView.swift in Sources */,
 				C23488D12871686D006EC104 /* MainWidget.intentdefinition in Sources */,
 				C23488EA28717567006EC104 /* UserDefaults+Ext.swift in Sources */,
+				FD8D43D02C3E838A00FD1F6F /* View+Ex.swift in Sources */,
 				C23488F028717B38006EC104 /* DynamicPersonSelection.intentdefinition in Sources */,
+				FD8D43D22C3E8A7700FD1F6F /* DynamicIntentWidget.swift in Sources */,
 				C23488E2287174DA006EC104 /* ContentView1.swift in Sources */,
 				C23488BE28714D17006EC104 /* PayToolsView.swift in Sources */,
 				C23488BA28714B7D006EC104 /* IdiomData.swift in Sources */,
@@ -479,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8D43D62C3F7AA400FD1F6F /* SelectPersonIntent.swift in Sources */,
 				C23488CB2871686B006EC104 /* MainWidget.swift in Sources */,
 				C23488D02871686D006EC104 /* MainWidget.intentdefinition in Sources */,
 				C23488F128717B38006EC104 /* DynamicPersonSelection.intentdefinition in Sources */,
@@ -491,6 +505,7 @@
 				C23488EE28717AF5006EC104 /* DynamicIntentWidget.swift in Sources */,
 				C23488F52871803C006EC104 /* Widget+Kind.swift in Sources */,
 				C23488F328717CFB006EC104 /* Contact.swift in Sources */,
+				FD8D43D12C3E838A00FD1F6F /* View+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +513,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8D43D72C3F822600FD1F6F /* SelectPersonIntent.swift in Sources */,
 				C2E5DEA728718C1800503F55 /* UserDefaults+Ext.swift in Sources */,
 				C2E5DEA628718B8900503F55 /* Contact.swift in Sources */,
 				C2E5DEA528718B2000503F55 /* DynamicPersonSelection.intentdefinition in Sources */,

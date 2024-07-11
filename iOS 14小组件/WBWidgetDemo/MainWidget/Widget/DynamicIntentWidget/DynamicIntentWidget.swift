@@ -27,14 +27,11 @@ private struct Provider: IntentTimelineProvider {
     func contact(for configuration: DynamicPersonSelectionIntent) -> Contact? {
         if let id = configuration.person?.identifier, let contact = Contact.fromId(id) {
             return contact
+        } else if let id = configuration.person1?.identifier, let contact = Contact.fromId(id) {
+            return contact
         }
         return nil
     }
-}
-
-private struct DynamicSimpleEntry: TimelineEntry {
-    let date: Date
-    var contact: Contact?
 }
 
 private struct DynamicIntentWidgetEntryView: View {
@@ -44,8 +41,10 @@ private struct DynamicIntentWidgetEntryView: View {
     var body: some View {
         if let contact = entry.contact {
             contactView(for: contact)
+                .widgetBackground()
         } else {
             Text("Choose contact")
+                .widgetBackground()
         }
     }
     
@@ -68,20 +67,30 @@ struct DynamicIntentWidget: Widget {
     let kind: String = WidgetKind.dynamicIntent
     
     var body: some WidgetConfiguration {
-        IntentConfiguration(kind: kind,
-                            intent: DynamicPersonSelectionIntent.self,
-                            provider: Provider()) { entry in
-            DynamicIntentWidgetEntryView(entry: entry)
-        }
+        makeWidgetConfiguration()
         .configurationDisplayName("Dynamic Intent Widget")
         .description("A Widget that has dynamically configurable data.")
         .supportedFamilies([.systemSmall])
     }
+    
+    func makeWidgetConfiguration() -> some WidgetConfiguration {
+        if #available(iOS 17.0, *) {
+            return AppIntentConfiguration(kind: kind, intent: SelectPersonIntent.self, provider: AppIntentProvider()) { entry in
+                DynamicIntentWidgetEntryView(entry: entry)
+            }
+        } else {
+            return IntentConfiguration(kind: kind,
+                                intent: DynamicPersonSelectionIntent.self,
+                                provider: Provider()) { entry in
+                DynamicIntentWidgetEntryView(entry: entry)
+            }
+        }
+    }
 }
 
-struct DynamicIntentWidget_Previews: PreviewProvider {
-    static var previews: some View {
-        DynamicIntentWidgetEntryView(entry: DynamicSimpleEntry(date: Date(), contact: .friend1))
-            .previewContext(WidgetPreviewContext(family: .systemSmall))
-    }
+@available(iOS 17.0, *)
+#Preview("DynamicIntentWidget", as: .systemSmall) {
+    DynamicIntentWidget()
+} timeline: {
+    DynamicSimpleEntry(date: Date(), contact: .friend1)
 }
